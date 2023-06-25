@@ -14,34 +14,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #F45C43 0%, #EB3349 100%);
+  background: #f1f1f1;
 }
 
 .wrapper {
-  height: 200px;
-  width: 400px;
+  height: 120px;
+  min-width: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FFFFFF;
-  border-radius: 50%;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #4285F4;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper span {
   width: 100%;
   text-align: center;
-  font-size: 80px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: 600;
   cursor: pointer;
   user-select: none;
-  color: #FFFFFF;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
 }
 
 .wrapper span.num {
-  font-size: 70px;
-  border: none;
+  font-size: 50px;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
   pointer-events: none;
 }
 
